@@ -1,4 +1,5 @@
-import { Context, InlineKeyboard, InputMediaPhoto } from "grammy";
+import { Context, InlineKeyboard } from "grammy";
+import { InputMediaPhoto } from "grammy/types";
 import { prisma } from "../database/prisma.js";
 import { getMainMenuKeyboard, getProfileKeyboard } from "./keyboards.js";
 import { startMessage } from "./start.js";
